@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNg" >
+    <test name="Functional Testing" >
+        <classes>
+            <class name="TestNg.TestNgAnnotationsDemo" />
+        </classes>
+    </test>
+    <test name="Regression1">
+        <classes>
+            <class name="TestNg.TestNgAssertions"/>
+            <class name="TestNg.TestNgSoftAssert"/>
+            <class name="TestNg.GroupingTest2"></class>
+            <class name="TestNg.GroupingTests"></class>
+            <class name="TestNg.SkipTestCases"></class>
+            <class name="TestNg.TestNgHardAssert"></class>
+        </classes>
+    </test>
+</suite>

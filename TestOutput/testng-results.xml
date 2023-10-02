@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test2]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-04-18T17:47:57 IST" name="Default Suite" finished-at="2023-04-18T17:47:57 IST" duration-ms="43">
+    <groups>
+    </groups>
+    <test started-at="2023-04-18T17:47:57 IST" name="Selenium_Tutorials" finished-at="2023-04-18T17:47:57 IST" duration-ms="43">
+      <class name="TestNg.ReportGeneration">
+        <test-method signature="reportTest1()[pri:0, instance:TestNg.ReportGeneration@233fe9b6]" started-at="2023-04-18T17:47:57 IST" name="reportTest1" finished-at="2023-04-18T17:47:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest1 -->
+        <test-method signature="reportTest2()[pri:0, instance:TestNg.ReportGeneration@233fe9b6]" started-at="2023-04-18T17:47:57 IST" name="reportTest2" finished-at="2023-04-18T17:47:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportTest2 -->
+        <test-method signature="reportTest3()[pri:0, instance:TestNg.ReportGeneration@233fe9b6]" started-at="2023-04-18T17:47:57 IST" name="reportTest3" finished-at="2023-04-18T17:47:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest3 -->
+        <test-method signature="reportTest4()[pri:0, instance:TestNg.ReportGeneration@233fe9b6]" started-at="2023-04-18T17:47:57 IST" name="reportTest4" finished-at="2023-04-18T17:47:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest4 -->
+      </class> <!-- TestNg.ReportGeneration -->
+    </test> <!-- Selenium_Tutorials -->
+  </suite> <!-- Default Suite -->
+</testng-results>

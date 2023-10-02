@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite SetUp and Tear Down" >
+    <listeners>
+        <listener class-name="TestNg.Listeners"></listener>
+    </listeners>
+    <test name="Test Before Suite and After Suite" >
+        <classes>
+            <class name="TestNg.GroupingTest2" />
+        </classes>
+    </test>
+</suite>
