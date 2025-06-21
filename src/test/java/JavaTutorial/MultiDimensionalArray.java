@@ -12,12 +12,12 @@ public class MultiDimensionalArray {
 
        // System.out.println(myMultiDimArray[1][2]);
 
-        int[][] myMultiDimArray1 = {{2, 3, 3},{6, 8, 9}};
+     //   int[][] myMultiDimArray1 = {{2, 3, 3},{6, 8, 9}};
         //System.out.println(myMultiDimArray1[1][2]);
 
         for (int i=0;i<myMultiDimArray.length;i++){
-            for (int j=0;j<myMultiDimArray1[i].length;j++){
-                System.out.println(myMultiDimArray1[i][j]);
+            for (int j=0;j<myMultiDimArray[i].length;j++){
+                System.out.println(myMultiDimArray[i][j]);
             }
         }
     }

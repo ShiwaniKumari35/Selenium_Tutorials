@@ -6,7 +6,7 @@ public class PalindromeOrNot {
             String reverseString = "";
             int wordLength = word.length();
             for(int i=(wordLength-1);i>=0;i--){
-                reverseString = reverseString+word.charAt(i);
+                reverseString = reverseString + word.charAt(i);
             }
             if(word.toLowerCase().equals(reverseString.toLowerCase())){
                 System.out.println(word + " is palindrome ");

@@ -9,7 +9,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 public class HandlingAlertPopUp {
     public static WebDriver driver;
-    public static String browser = "Chrome";
+    public static String browser = "Edge";
 
     public static void main(String[] args) throws InterruptedException {
         if (browser.equals("Chrome")) {

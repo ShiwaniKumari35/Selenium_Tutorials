@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ExplicitWait {
     public static WebDriver driver;
-    public static String browser = "Chrome";
+    public static String browser = "Edge";
 
     public static void main(String[] args) throws InterruptedException {
         if (browser.equals("Chrome")) {

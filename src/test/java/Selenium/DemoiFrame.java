@@ -29,9 +29,9 @@ public class DemoiFrame {
         Thread.sleep(1000);
         driver.findElement(By.xpath("/html/body/button")).click();
 
-        //driver.switchTo().parentFrame();
-        //Thread.sleep(2000);
-        //System.out.println(driver.getTitle());
+        driver.switchTo().parentFrame();
+        Thread.sleep(2000);
+        System.out.println(driver.getTitle());
         //driver.close();
 
     }
